@@ -1,0 +1,17 @@
+[web]
+web.example.net  tajna_web_wartosc=666
+web2.example.net
+
+[sql]
+db.example.net
+db2.example.net
+
+[full:children]
+web
+sql
+
+[web:vars]
+strona="turbo www"
+
+[sql:vars]
+stara_rura="com.pl"
