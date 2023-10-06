@@ -1,0 +1,6 @@
+---
+- hosts: "{{ hname }}"
+  tasks:
+    - name: H msg
+      debug:
+        msg: "hello world on {{ hname }}"
