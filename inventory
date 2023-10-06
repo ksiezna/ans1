@@ -1,3 +1,6 @@
+[loc]
+srv.example.net
+
 [web]
 web.example.net  tajna_web_wartosc=666
 web2.example.net
