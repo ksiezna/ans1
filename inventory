@@ -1,5 +1,5 @@
 [grupa3]
-srv.example.net
+lokalny ansible_host=srv.example.net
 
 [web]
 web.example.net  tajna_web_wartosc=666
